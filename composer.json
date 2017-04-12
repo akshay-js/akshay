@@ -25,5 +25,7 @@
         "psr-4": {
             "Akshay\\Akshay\\Test\\": "tests"
         }
-    }
+    },
+	    "minimum-stability": "dev"
+
 }
