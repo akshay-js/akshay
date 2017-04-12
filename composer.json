@@ -1,0 +1,41 @@
+{
+    "name": "akshay",
+    "description": "Cakephp 3 Website Visitors Tracking",
+    "type": "cakephp-plugin",
+    "keywords": [
+        "cakephp",
+        "web-tracking",
+        "akshay",
+        "orm",
+		"website-analytics-panel"
+    ],
+    "homepage": "https://github.com/akshay-sharma-2015/cakephp-web-tracking",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Akshay Sharma",
+            "homepage": "https://github.com/akshay-sharma-2015/",
+            "role": "Author"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/akshay-sharma-2015/cakephp-web-tracking/issues",
+        "source": "https://github.com/akshay-sharma-2015/cakephp-web-tracking"
+    },
+    "require": {
+        "cakephp/orm": "^3.2.7"
+    },
+    "require-dev": {
+        "cakephp/cakephp": "^3.2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Akshay\\Akshay\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Akshay\\Akshay\\Test\\": "tests"
+        }
+    }
+}
