@@ -1,5 +1,5 @@
 {
-    "name": "akshay/akshay",
+    "name": "akshay-sharma-2015/cakephp-web-tracking",
     "description": "CakePHP 3 Web Analytics",
     "type": "cakephp-plugin",
     "keywords": [
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Akshay\\Slug\\": "src"
+            "Akshay\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Akshay\\Akshay\\Test\\": "tests"
+            "Akshay\\Test\\": "tests"
         }
     }
 }
