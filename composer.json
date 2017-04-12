@@ -9,7 +9,7 @@
     "description": "Cakephp 3 web analytics",
     "type": "composer-plugin",
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
 	"autoload": {
         "psr-0": {
             "Akshay": "src/"
