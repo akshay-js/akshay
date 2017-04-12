@@ -1,10 +1,18 @@
 {
     "name": "akshay/akshay",
+	"authors": [
+        {
+            "name": "akshay",
+            "email": "akshay"
+        }
+    ],
     "description": "Cakephp 3 web analytics",
     "type": "composer-plugin",
-    "require": {
-        "cakephp/orm": "^3.4"
-    },
     "license": "MIT",
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+	"autoload": {
+        "psr-0": {
+            "Akshay": "src/"
+        }
+    }
 }
