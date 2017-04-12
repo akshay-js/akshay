@@ -1,22 +1,22 @@
 {
-    "name": "akshay-sharma-2015/cakephp-web-tracking",
+    "name": "akshay-sharma-2015/akshay",
     "description": "CakePHP 3 Web Analytics",
     "type": "cakephp-plugin",
     "keywords": [
         "cakephp"
     ],
-    "homepage": "https://github.com/akshay-sharma-2015",
+    "homepage": "https://github.com/akshay-sharma-2015/akshay",
     "license": "MIT",
     "authors": [
         {
             "name": "Akshay",
-            "homepage": "https://github.com/akshay-sharma-2015",
+            "homepage": "https://github.com/akshay-sharma-2015/akshay",
             "role": "Author"
         }
     ],
     "support": {
-        "issues": "https://github.com/akshay-sharma-2015/cakephp-web-tracking/issues",
-        "source": "https://github.com/akshay-sharma-2015/cakephp-web-tracking"
+        "issues": "https://github.com/akshay-sharma-2015/akshay/issues",
+        "source": "https://github.com/akshay-sharma-2015/akshay"
     },
     "require": {
         "cakephp/orm": "^3.2.7"
