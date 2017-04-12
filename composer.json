@@ -1,16 +1,24 @@
 {
     "name": "akshay/akshay",
-	"authors": [
+    "description": "CakePHP 3 Web Analytics",
+    "type": "cakephp-plugin",
+    "keywords": [
+        "cakephp"
+    ],
+    "homepage": "https://github.com/akshay-sharma-2015",
+    "license": "MIT",
+    "authors": [
         {
-            "name": "akshay",
-            "email": "akshaya.sharma770@gmail.com"
+            "name": "Akshay",
+            "homepage": "https://github.com/akshay-sharma-2015",
+            "role": "Author"
         }
     ],
-    "description": "Cakephp 3 web analytics",
-    "type": "composer-plugin",
-    "license": "MIT",
-    "minimum-stability": "dev",
-	"require": {
+    "support": {
+        "issues": "https://github.com/akshay-sharma-2015/cakephp-web-tracking/issues",
+        "source": "https://github.com/akshay-sharma-2015/cakephp-web-tracking"
+    },
+    "require": {
         "cakephp/orm": "^3.2.7"
     },
     "require-dev": {
@@ -18,14 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Akshay\\Akshay\\": "src"
+            "Akshay\\Slug\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "Akshay\\Akshay\\Test\\": "tests"
         }
-    },
-	    "minimum-stability": "dev"
-
+    }
 }
