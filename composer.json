@@ -3,7 +3,8 @@
     "description": "Cakephp web",
     "type": "library",
     "require": {
-        "cakephp/orm": "3.2.7"
+        "cakephp/orm": "3.2.7",
+        "akshay/akshay": "dev-master"
     },
     "require-dev": {
         "cakephp/cakephp": "3.2.7"
