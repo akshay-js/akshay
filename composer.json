@@ -1,18 +1,19 @@
 {
-    "name": "akshay/akshay",
-	"authors": [
+    "name": "vendor/akshay",
+    "description": "Cakephp web",
+    "type": "library",
+    "require": {
+        "cakephp/orm": "3.2.7",
+        "akshay/akshay": "dev-master"
+    },
+    "require-dev": {
+        "cakephp/cakephp": "3.2.7"
+    },
+    "authors": [
         {
-            "name": "akshay",
+            "name": "akshay-sharma-2015",
             "email": "akshaya.sharma770@gmail.com"
         }
     ],
-    "description": "Cakephp 3 web analytics",
-    "type": "composer-plugin",
-    "license": "MIT",
-    "minimum-stability": "dev",
-	"autoload": {
-        "psr-0": {
-            "Akshay": "src/"
-        }
-    }
+    "minimum-stability": "dev"
 }
